@@ -1,0 +1,31 @@
+Notes - lesson 2
+
+MVC - Model-View-Controller
+
+Model - What your application is (but not how it is displayed [UI independent])
+View - Your controller's minions (UI elements)
+Controller - How your model is presented to the user (UI logic)
+
+- Controllers always talk directly to the model (access model)
+- Controllers always talk directly to the View (using IBOutlet and stuff)
+- Model and View should never communicate to each other.
+	> Views are generic UI elements; Models are UI independent - neither have anything to do with the other.
+- View can communicate with Controllers, but the communication must be "blind" and controlled.
+	> E.g. the Controller can drop a target on itself (e.g. touchCard())
+
+- Controller sets itself as the View's delegate (will; should; did)
+	> Delegates set via protocols
+
+- N.B. Views don't own what data they display (!!!) All they do is grab data from the Controller via another delegate.
+
+- Model should not talk to Controller, except for using a "radio station" to broadcast data changes, which the Controller "tunes-in" to. (Notification and KVO)
+
+- Each MVC generally controls one screen or fewer. 
+
+- When one MVC wants to communicate with another, it just treats that entire other MVC as part of its own "view".
+
+- Difference between structs and classes - structs have no inheritance, and structs are value types whereas classes are reference types. (This means they get copied)
+
+- N.B. Arrays, Ints, Dicts, and Strings are all structs.
+
+- Classes get a free initializer; structs do too, but theirs initializes all vars, regardless of whether they were already initialized.
