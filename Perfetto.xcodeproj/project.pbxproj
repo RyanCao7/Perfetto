@@ -54,14 +54,22 @@
 		94838AE62141CA69009A9673 /* Perfetto */ = {
 			isa = PBXGroup;
 			children = (
-				94838AE72141CA69009A9673 /* AppDelegate.swift */,
+				94838AF92141CABC009A9673 /* Supporting Files */,
 				94838AE92141CA69009A9673 /* ViewController.swift */,
 				94838AEB2141CA69009A9673 /* Main.storyboard */,
-				94838AEE2141CA6A009A9673 /* Assets.xcassets */,
-				94838AF02141CA6A009A9673 /* LaunchScreen.storyboard */,
 				94838AF32141CA6A009A9673 /* Info.plist */,
 			);
 			path = Perfetto;
+			sourceTree = "<group>";
+		};
+		94838AF92141CABC009A9673 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94838AE72141CA69009A9673 /* AppDelegate.swift */,
+				94838AEE2141CA6A009A9673 /* Assets.xcassets */,
+				94838AF02141CA6A009A9673 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
