@@ -13,7 +13,11 @@
 		94838AEF2141CA6A009A9673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94838AEE2141CA6A009A9673 /* Assets.xcassets */; };
 		94838AF22141CA6A009A9673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94838AF02141CA6A009A9673 /* LaunchScreen.storyboard */; };
 		94838AFB2142DAEB009A9673 /* Perfetto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94838AFA2142DAEB009A9673 /* Perfetto.swift */; };
-		94838AFD2142DB8D009A9673 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94838AFC2142DB8D009A9673 /* Card.swift */; };
+		94838AFF21483A87009A9673 /* space_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94838AFE21483A87009A9673 /* space_background.jpg */; };
+		94838B0C21484059009A9673 /* profile_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 94838B0821484058009A9673 /* profile_icon.png */; };
+		94838B0D21484059009A9673 /* referral_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 94838B0921484059009A9673 /* referral_icon.png */; };
+		94838B0E21484059009A9673 /* heart_pizza_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94838B0A21484059009A9673 /* heart_pizza_background.jpg */; };
+		94838B0F21484059009A9673 /* square_pizza_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94838B0B21484059009A9673 /* square_pizza_background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +29,11 @@
 		94838AF12141CA6A009A9673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94838AF32141CA6A009A9673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94838AFA2142DAEB009A9673 /* Perfetto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfetto.swift; sourceTree = "<group>"; };
-		94838AFC2142DB8D009A9673 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		94838AFE21483A87009A9673 /* space_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space_background.jpg; sourceTree = "<group>"; };
+		94838B0821484058009A9673 /* profile_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_icon.png; sourceTree = "<group>"; };
+		94838B0921484059009A9673 /* referral_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = referral_icon.png; sourceTree = "<group>"; };
+		94838B0A21484059009A9673 /* heart_pizza_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heart_pizza_background.jpg; sourceTree = "<group>"; };
+		94838B0B21484059009A9673 /* square_pizza_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = square_pizza_background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +70,6 @@
 				94838AE92141CA69009A9673 /* ViewController.swift */,
 				94838AEB2141CA69009A9673 /* Main.storyboard */,
 				94838AFA2142DAEB009A9673 /* Perfetto.swift */,
-				94838AFC2142DB8D009A9673 /* Card.swift */,
 				94838AF32141CA6A009A9673 /* Info.plist */,
 			);
 			path = Perfetto;
@@ -71,6 +78,11 @@
 		94838AF92141CABC009A9673 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94838AFE21483A87009A9673 /* space_background.jpg */,
+				94838B0A21484059009A9673 /* heart_pizza_background.jpg */,
+				94838B0821484058009A9673 /* profile_icon.png */,
+				94838B0921484059009A9673 /* referral_icon.png */,
+				94838B0B21484059009A9673 /* square_pizza_background.jpg */,
 				94838AE72141CA69009A9673 /* AppDelegate.swift */,
 				94838AEE2141CA6A009A9673 /* Assets.xcassets */,
 				94838AF02141CA6A009A9673 /* LaunchScreen.storyboard */,
@@ -136,9 +148,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94838B0E21484059009A9673 /* heart_pizza_background.jpg in Resources */,
 				94838AF22141CA6A009A9673 /* LaunchScreen.storyboard in Resources */,
 				94838AEF2141CA6A009A9673 /* Assets.xcassets in Resources */,
+				94838AFF21483A87009A9673 /* space_background.jpg in Resources */,
+				94838B0C21484059009A9673 /* profile_icon.png in Resources */,
 				94838AED2141CA69009A9673 /* Main.storyboard in Resources */,
+				94838B0D21484059009A9673 /* referral_icon.png in Resources */,
+				94838B0F21484059009A9673 /* square_pizza_background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +169,6 @@
 				94838AFB2142DAEB009A9673 /* Perfetto.swift in Sources */,
 				94838AEA2141CA69009A9673 /* ViewController.swift in Sources */,
 				94838AE82141CA69009A9673 /* AppDelegate.swift in Sources */,
-				94838AFD2142DB8D009A9673 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
