@@ -18,6 +18,9 @@
 		94838B0D21484059009A9673 /* referral_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 94838B0921484059009A9673 /* referral_icon.png */; };
 		94838B0E21484059009A9673 /* heart_pizza_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94838B0A21484059009A9673 /* heart_pizza_background.jpg */; };
 		94838B0F21484059009A9673 /* square_pizza_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94838B0B21484059009A9673 /* square_pizza_background.jpg */; };
+		94838B1B214C19FB009A9673 /* Logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94838B1A214C19FB009A9673 /* Logo1.png */; };
+		94838B1E214C5957009A9673 /* DynamicBlurView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94838B1C214C5956009A9673 /* DynamicBlurView.framework */; };
+		94838B1F214C5957009A9673 /* PopupDialog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94838B1D214C5957009A9673 /* PopupDialog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		94838B0921484059009A9673 /* referral_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = referral_icon.png; sourceTree = "<group>"; };
 		94838B0A21484059009A9673 /* heart_pizza_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heart_pizza_background.jpg; sourceTree = "<group>"; };
 		94838B0B21484059009A9673 /* square_pizza_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = square_pizza_background.jpg; sourceTree = "<group>"; };
+		94838B1A214C19FB009A9673 /* Logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo1.png; path = Assets.xcassets/Logo1.png; sourceTree = "<group>"; };
+		94838B1C214C5956009A9673 /* DynamicBlurView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DynamicBlurView.framework; path = Carthage/Build/iOS/DynamicBlurView.framework; sourceTree = SOURCE_ROOT; };
+		94838B1D214C5957009A9673 /* PopupDialog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PopupDialog.framework; path = Carthage/Build/iOS/PopupDialog.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94838B1E214C5957009A9673 /* DynamicBlurView.framework in Frameworks */,
+				94838B1F214C5957009A9673 /* PopupDialog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,11 +88,14 @@
 			children = (
 				94838AFE21483A87009A9673 /* space_background.jpg */,
 				94838B0A21484059009A9673 /* heart_pizza_background.jpg */,
+				94838B1C214C5956009A9673 /* DynamicBlurView.framework */,
+				94838B1D214C5957009A9673 /* PopupDialog.framework */,
 				94838B0821484058009A9673 /* profile_icon.png */,
 				94838B0921484059009A9673 /* referral_icon.png */,
 				94838B0B21484059009A9673 /* square_pizza_background.jpg */,
 				94838AE72141CA69009A9673 /* AppDelegate.swift */,
 				94838AEE2141CA6A009A9673 /* Assets.xcassets */,
+				94838B1A214C19FB009A9673 /* Logo1.png */,
 				94838AF02141CA6A009A9673 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
@@ -100,6 +111,7 @@
 				94838AE02141CA69009A9673 /* Sources */,
 				94838AE12141CA69009A9673 /* Frameworks */,
 				94838AE22141CA69009A9673 /* Resources */,
+				94838B20214C5E4B009A9673 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94838B0E21484059009A9673 /* heart_pizza_background.jpg in Resources */,
+				94838B1B214C19FB009A9673 /* Logo1.png in Resources */,
 				94838AF22141CA6A009A9673 /* LaunchScreen.storyboard in Resources */,
 				94838AEF2141CA6A009A9673 /* Assets.xcassets in Resources */,
 				94838AFF21483A87009A9673 /* space_background.jpg in Resources */,
@@ -160,6 +173,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94838B20214C5E4B009A9673 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/DynamicBlurView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PopupDialog.framework",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/DynamicBlurView.framework",
+				"$(DERIVED_FILE_DIR)/PopupDialog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94838AE02141CA69009A9673 /* Sources */ = {
@@ -314,6 +347,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NJVF55828X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Perfetto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -332,6 +369,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NJVF55828X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Perfetto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

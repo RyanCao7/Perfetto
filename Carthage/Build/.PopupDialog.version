@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.8.1",
+  "iOS" : [
+    {
+      "name" : "PopupDialog",
+      "hash" : "363b7a2f74eeb53c18979bd1ec0ab1417924fc55789ca1ed64ec045499f77e7a"
+    }
+  ]
+}
