@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9421D71F21518C4D0027D58B /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9421D71E21518C4D0027D58B /* CosmosDistrib.swift */; };
+		9421D7302152D9140027D58B /* MeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9421D72E2152D9130027D58B /* MeatViewController.swift */; };
+		9421D7312152D9140027D58B /* MeatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9421D72F2152D9140027D58B /* MeatViewController.xib */; };
+		9421D7352153EC310027D58B /* margherita_pizza.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9421D7322153EC300027D58B /* margherita_pizza.jpeg */; };
+		9421D7362153EC310027D58B /* pancakes.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9421D7332153EC300027D58B /* pancakes.jpeg */; };
+		9421D7372153EC310027D58B /* combo_pizza.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9421D7342153EC310027D58B /* combo_pizza.jpeg */; };
+		942A0E2A2153F4C000FE930E /* combo_pizza_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 942A0E292153F4BF00FE930E /* combo_pizza_transparent.png */; };
+		942A0E3321542A8200FE930E /* SupremeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942A0E2F21542A8200FE930E /* SupremeViewController.xib */; };
+		942A0E3421542A8200FE930E /* SupremeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942A0E3021542A8200FE930E /* SupremeViewController.swift */; };
+		942A0E3521542A8200FE930E /* MargheritaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942A0E3121542A8200FE930E /* MargheritaViewController.xib */; };
+		942A0E3621542A8200FE930E /* MargheritaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942A0E3221542A8200FE930E /* MargheritaViewController.swift */; };
+		942A0E38215434DB00FE930E /* margherita_pizza_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 942A0E37215434DB00FE930E /* margherita_pizza_transparent.png */; };
+		942A0E3B215459F000FE930E /* meat_pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 942A0E39215459F000FE930E /* meat_pizza.jpg */; };
+		942A0E3C215459F000FE930E /* meat_pizza_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 942A0E3A215459F000FE930E /* meat_pizza_transparent.png */; };
+		945266242165E8E00061912E /* meat_button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 945266212165E8DF0061912E /* meat_button.jpg */; };
+		945266252165E8E00061912E /* margherita_button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 945266222165E8E00061912E /* margherita_button.jpg */; };
+		945266262165E8E00061912E /* combo_button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 945266232165E8E00061912E /* combo_button.jpg */; };
 		94838AE82141CA69009A9673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94838AE72141CA69009A9673 /* AppDelegate.swift */; };
 		94838AEA2141CA69009A9673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94838AE92141CA69009A9673 /* ViewController.swift */; };
 		94838AED2141CA69009A9673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94838AEB2141CA69009A9673 /* Main.storyboard */; };
@@ -21,9 +38,28 @@
 		94838B1B214C19FB009A9673 /* Logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94838B1A214C19FB009A9673 /* Logo1.png */; };
 		94838B1E214C5957009A9673 /* DynamicBlurView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94838B1C214C5956009A9673 /* DynamicBlurView.framework */; };
 		94838B1F214C5957009A9673 /* PopupDialog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94838B1D214C5957009A9673 /* PopupDialog.framework */; };
+		949D3BCA215ACB80001A57A3 /* PerfettoLogoNoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 949D3BC9215ACB7F001A57A3 /* PerfettoLogoNoBackground.png */; };
+		94B07305216A77C200332D1A /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B07304216A77C200332D1A /* ProgressViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9421D71E21518C4D0027D58B /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
+		9421D72E2152D9130027D58B /* MeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeatViewController.swift; sourceTree = "<group>"; };
+		9421D72F2152D9140027D58B /* MeatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeatViewController.xib; sourceTree = "<group>"; };
+		9421D7322153EC300027D58B /* margherita_pizza.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = margherita_pizza.jpeg; sourceTree = "<group>"; };
+		9421D7332153EC300027D58B /* pancakes.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pancakes.jpeg; sourceTree = "<group>"; };
+		9421D7342153EC310027D58B /* combo_pizza.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = combo_pizza.jpeg; sourceTree = "<group>"; };
+		942A0E292153F4BF00FE930E /* combo_pizza_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = combo_pizza_transparent.png; sourceTree = "<group>"; };
+		942A0E2F21542A8200FE930E /* SupremeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupremeViewController.xib; sourceTree = "<group>"; };
+		942A0E3021542A8200FE930E /* SupremeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupremeViewController.swift; sourceTree = "<group>"; };
+		942A0E3121542A8200FE930E /* MargheritaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MargheritaViewController.xib; sourceTree = "<group>"; };
+		942A0E3221542A8200FE930E /* MargheritaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MargheritaViewController.swift; sourceTree = "<group>"; };
+		942A0E37215434DB00FE930E /* margherita_pizza_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = margherita_pizza_transparent.png; sourceTree = "<group>"; };
+		942A0E39215459F000FE930E /* meat_pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meat_pizza.jpg; sourceTree = "<group>"; };
+		942A0E3A215459F000FE930E /* meat_pizza_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meat_pizza_transparent.png; sourceTree = "<group>"; };
+		945266212165E8DF0061912E /* meat_button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meat_button.jpg; sourceTree = "<group>"; };
+		945266222165E8E00061912E /* margherita_button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = margherita_button.jpg; sourceTree = "<group>"; };
+		945266232165E8E00061912E /* combo_button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = combo_button.jpg; sourceTree = "<group>"; };
 		94838AE42141CA69009A9673 /* Perfetto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perfetto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94838AE72141CA69009A9673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94838AE92141CA69009A9673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +76,8 @@
 		94838B1A214C19FB009A9673 /* Logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo1.png; path = Assets.xcassets/Logo1.png; sourceTree = "<group>"; };
 		94838B1C214C5956009A9673 /* DynamicBlurView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DynamicBlurView.framework; path = Carthage/Build/iOS/DynamicBlurView.framework; sourceTree = SOURCE_ROOT; };
 		94838B1D214C5957009A9673 /* PopupDialog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PopupDialog.framework; path = Carthage/Build/iOS/PopupDialog.framework; sourceTree = SOURCE_ROOT; };
+		949D3BC9215ACB7F001A57A3 /* PerfettoLogoNoBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PerfettoLogoNoBackground.png; sourceTree = "<group>"; };
+		94B07304216A77C200332D1A /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +114,14 @@
 			children = (
 				94838AF92141CABC009A9673 /* Supporting Files */,
 				94838AE92141CA69009A9673 /* ViewController.swift */,
+				942A0E3221542A8200FE930E /* MargheritaViewController.swift */,
+				942A0E3121542A8200FE930E /* MargheritaViewController.xib */,
+				942A0E3021542A8200FE930E /* SupremeViewController.swift */,
+				942A0E2F21542A8200FE930E /* SupremeViewController.xib */,
+				9421D72E2152D9130027D58B /* MeatViewController.swift */,
+				9421D72F2152D9140027D58B /* MeatViewController.xib */,
 				94838AEB2141CA69009A9673 /* Main.storyboard */,
+				94B07304216A77C200332D1A /* ProgressViewController.swift */,
 				94838AFA2142DAEB009A9673 /* Perfetto.swift */,
 				94838AF32141CA6A009A9673 /* Info.plist */,
 			);
@@ -86,17 +131,29 @@
 		94838AF92141CABC009A9673 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9421D7342153EC310027D58B /* combo_pizza.jpeg */,
+				9421D7322153EC300027D58B /* margherita_pizza.jpeg */,
+				942A0E292153F4BF00FE930E /* combo_pizza_transparent.png */,
+				9421D7332153EC300027D58B /* pancakes.jpeg */,
 				94838AFE21483A87009A9673 /* space_background.jpg */,
 				94838B0A21484059009A9673 /* heart_pizza_background.jpg */,
 				94838B1C214C5956009A9673 /* DynamicBlurView.framework */,
 				94838B1D214C5957009A9673 /* PopupDialog.framework */,
 				94838B0821484058009A9673 /* profile_icon.png */,
+				942A0E37215434DB00FE930E /* margherita_pizza_transparent.png */,
 				94838B0921484059009A9673 /* referral_icon.png */,
 				94838B0B21484059009A9673 /* square_pizza_background.jpg */,
 				94838AE72141CA69009A9673 /* AppDelegate.swift */,
 				94838AEE2141CA6A009A9673 /* Assets.xcassets */,
 				94838B1A214C19FB009A9673 /* Logo1.png */,
 				94838AF02141CA6A009A9673 /* LaunchScreen.storyboard */,
+				949D3BC9215ACB7F001A57A3 /* PerfettoLogoNoBackground.png */,
+				942A0E3A215459F000FE930E /* meat_pizza_transparent.png */,
+				942A0E39215459F000FE930E /* meat_pizza.jpg */,
+				945266232165E8E00061912E /* combo_button.jpg */,
+				945266222165E8E00061912E /* margherita_button.jpg */,
+				945266212165E8DF0061912E /* meat_button.jpg */,
+				9421D71E21518C4D0027D58B /* CosmosDistrib.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,15 +217,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942A0E3521542A8200FE930E /* MargheritaViewController.xib in Resources */,
+				942A0E3C215459F000FE930E /* meat_pizza_transparent.png in Resources */,
+				942A0E2A2153F4C000FE930E /* combo_pizza_transparent.png in Resources */,
+				9421D7372153EC310027D58B /* combo_pizza.jpeg in Resources */,
+				942A0E3321542A8200FE930E /* SupremeViewController.xib in Resources */,
 				94838B0E21484059009A9673 /* heart_pizza_background.jpg in Resources */,
+				942A0E3B215459F000FE930E /* meat_pizza.jpg in Resources */,
+				945266262165E8E00061912E /* combo_button.jpg in Resources */,
 				94838B1B214C19FB009A9673 /* Logo1.png in Resources */,
 				94838AF22141CA6A009A9673 /* LaunchScreen.storyboard in Resources */,
+				942A0E38215434DB00FE930E /* margherita_pizza_transparent.png in Resources */,
+				9421D7362153EC310027D58B /* pancakes.jpeg in Resources */,
 				94838AEF2141CA6A009A9673 /* Assets.xcassets in Resources */,
+				945266242165E8E00061912E /* meat_button.jpg in Resources */,
 				94838AFF21483A87009A9673 /* space_background.jpg in Resources */,
+				9421D7352153EC310027D58B /* margherita_pizza.jpeg in Resources */,
 				94838B0C21484059009A9673 /* profile_icon.png in Resources */,
+				949D3BCA215ACB80001A57A3 /* PerfettoLogoNoBackground.png in Resources */,
 				94838AED2141CA69009A9673 /* Main.storyboard in Resources */,
 				94838B0D21484059009A9673 /* referral_icon.png in Resources */,
+				945266252165E8E00061912E /* margherita_button.jpg in Resources */,
 				94838B0F21484059009A9673 /* square_pizza_background.jpg in Resources */,
+				9421D7312152D9140027D58B /* MeatViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942A0E3621542A8200FE930E /* MargheritaViewController.swift in Sources */,
 				94838AFB2142DAEB009A9673 /* Perfetto.swift in Sources */,
+				9421D7302152D9140027D58B /* MeatViewController.swift in Sources */,
+				94B07305216A77C200332D1A /* ProgressViewController.swift in Sources */,
+				942A0E3421542A8200FE930E /* SupremeViewController.swift in Sources */,
 				94838AEA2141CA69009A9673 /* ViewController.swift in Sources */,
+				9421D71F21518C4D0027D58B /* CosmosDistrib.swift in Sources */,
 				94838AE82141CA69009A9673 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
